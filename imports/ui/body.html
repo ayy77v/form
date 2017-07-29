@@ -1,0 +1,17 @@
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Todo List</h1>
+    </header>
+    {{>task}}
+
+  </div>
+</body>
+ 
+<template name="task">
+  <div>
+  {{>quickForm collection="Books" id="insertBookForm" type="insert"}}
+
+  </div>
+</template>
